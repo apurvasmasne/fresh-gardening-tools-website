@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-green-500 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white font-bold text-xl">Garden Shop</a>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="text-white">Home</a></li>
+                <li><a href="shop.html" class="text-white">Shop</a></li>
+                <li><a href="about.html" class="text-white">About</a></li>
+                <li><a href="contact.html" class="text-white">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-green-600 text-white py-16">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Welcome to Garden Shop</h1>
+            <p class="mt-4">Find everything you need for your garden here.</p>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-8">Featured Products</h2>
+            <!-- Product Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Product Card Example -->
+                <div class="bg-white shadow-md p-6">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQal62-0qFD_ZGVMQqBntrHyfzHire1xf6HOal-HIhBGg&s" alt="Product Image" class="w-full mb-4">
+                    <h3 class="text-lg font-semibold">Product Name</h3>
+                    <p class="text-gray-600">$XX.XX</p>
+                    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded-full add-to-cart">Add to Cart</button>
+                </div>
+                <div class="bg-white shadow-md p-6">
+                    <img src="https://www.soilsupplies.co.nz/images/1000/590/wc-asap-pebbles-bg-mobile?h=540152c8" alt="Product Image" class="w-full mb-4">
+                    <h3 class="text-lg font-semibold">Product Name</h3>
+                    <p class="text-gray-600">$XX.XX</p>
+                    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded-full add-to-cart">Add to Cart</button>
+                </div>
+                <div class="bg-white shadow-md p-6">
+                    <img src="https://www.99acres.com/microsite/wp-content/blogs.dir/6161/files/2023/05/Spider-Plants-Outdoor-plants-for-balcony.jpg" alt="Product Image" class="w-full mb-4">
+                    <h3 class="text-lg font-semibold">Product Name</h3>
+                    <p class="text-gray-600">$XX.XX</p>
+                    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded-full add-to-cart">Add to Cart</button>
+                </div>
+                <div class="bg-white shadow-md p-6">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/981/stroingseeds-charlotte-lake-1524579660.jpg?crop=1.00xw:0.789xh;0,0.147xh&resize=640:*" alt="Product Image" class="w-full mb-4">
+                    <h3 class="text-lg font-semibold">Product Name</h3>
+                    <p class="text-gray-600">$XX.XX</p>
+                    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded-full add-to-cart">Add to Cart</button>
+                </div>
+                <!-- Repeat product card structure for other products -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Counter -->
+    <div class="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-full cart-counter hidden">
+        Cart: <span id="cartCount">0</span>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Garden Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
