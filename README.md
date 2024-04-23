@@ -1,1 +1,1 @@
-This website provides plants, tools, seed and decorations for gardens and fields.
+This website provides plants, tools, seeds and decorations for gardens and fields.
